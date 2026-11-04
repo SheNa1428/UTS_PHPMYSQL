@@ -1,0 +1,378 @@
+/* =========================================
+   STYLE UMUM SWEET EID
+   Dipakai oleh:
+   - index.php
+   - tambah_data.php
+   - edit_data.php
+   ========================================= */
+
+   * {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e7;
+    margin: 0;
+    padding: 30px;
+    color: #4b3621;
+ }
+ 
+ /* Tombol umum */
+ .btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ /* =========================================
+    HALAMAN INDEX / DAFTAR PRODUK
+    Gunakan: <body class="page-index">
+    ========================================= */
+ 
+ .page-index .container {
+    max-width: 1100px;
+    margin: auto;
+    background-color: #fffdf9;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(75, 54, 33, 0.08);
+ }
+ 
+ .page-index h3 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #4b3621;
+ }
+ 
+ /* Bagian atas tabel */
+ .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+ }
+ 
+ /* Form pencarian */
+ .search-box {
+    display: flex;
+    gap: 8px;
+ }
+ 
+ .search-box input {
+    width: 280px;
+    padding: 9px 12px;
+    border: 1px solid #dfcdb5;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+ }
+ 
+ .search-box input:focus {
+    border-color: #b88645;
+ }
+ 
+ /* Tombol cari */
+ .btn-cari {
+    background-color: #a87945;
+ }
+ 
+ .btn-cari:hover {
+    background-color: #80552e;
+ }
+
+ /* tombol logout */
+ .page-index .btn-logout {
+   background-color: #8b6b3f;
+   color: white;
+}
+
+.page-index .btn-logout:hover {
+   background-color: #6f512d;
+   color: white;
+}
+ 
+ /* Tombol tambah data di halaman index */
+ .page-index .btn-tambah {
+    background-color: #8b6b3f;
+ }
+ 
+ .page-index .btn-tambah:hover {
+    background-color: #6f512d;
+ }
+ 
+ /* Tombol edit */
+ .btn-edit {
+    background-color: #b88645;
+ }
+ 
+ .btn-edit:hover {
+    background-color: #966b35;
+ }
+ 
+ /* Tombol hapus */
+ .btn-hapus {
+    background-color: #a64b3c;
+ }
+ 
+ .btn-hapus:hover {
+    background-color: #87382d;
+ }
+ 
+ /* Tabel */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+ }
+ 
+ table,
+ th,
+ td {
+    border: 1px solid #dfcdb5;
+ }
+ 
+ th,
+ td {
+    padding: 10px;
+    text-align: left;
+ }
+ 
+ th {
+    background-color: #efe2cf;
+    color: #4b3621;
+ }
+ 
+ tbody tr:hover {
+    background-color: #faf3e9;
+ }
+ 
+ td .btn {
+    margin-right: 4px;
+ }
+ 
+ /* =========================================
+    HALAMAN FORM
+    Dipakai tambah_data.php dan edit_data.php
+    Gunakan: <body class="page-form">
+    ========================================= */
+ 
+ .page-form .container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+ }
+ 
+ .form-card {
+    background-color: #fffdf9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(75, 54, 33, 0.08);
+ }
+ 
+ .page-form h1,
+ .page-form h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #4b3621;
+ }
+ 
+ .form-group {
+    margin-bottom: 18px;
+ }
+ 
+ .form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #5c4630;
+ }
+ 
+ .form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #dfcdb5;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+ }
+
+ .form-group textarea {
+   width: 100%;
+   padding: 10px 12px;
+   border: 1px solid #dfcdb5;
+   border-radius: 6px;
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+   outline: none;
+   resize: vertical;
+}
+
+.form-group textarea:focus {
+   border-color: #b88645;
+}
+ 
+ .form-group input:focus {
+    border-color: #b88645;
+ }
+ 
+ .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+ }
+ 
+ /* Tombol Tambah Data pada form tambah_data.php */
+ .page-form .btn-tambah {
+    background-color: #b88645;
+ }
+ 
+ .page-form .btn-tambah:hover {
+    background-color: #966b35;
+ }
+ 
+ /* Tombol Ubah Data pada form ubah_data.php */
+ .btn-ubah {
+    background-color: #b88645;
+ }
+ 
+ .btn-ubah:hover {
+    background-color: #966b35;
+ }
+ 
+ /* Tombol kembali */
+ .btn-kembali {
+    background-color: #8c8175;
+ }
+ 
+ .btn-kembali:hover {
+    background-color: #6f655b;
+ }
+ 
+ /* =========================================
+    PAGINATION
+    ========================================= */
+ 
+/* =========================================
+   PAGINATION
+   ========================================= */
+
+   .pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #faf3e9;
+    border: 1px solid #efe2cf;
+    border-radius: 12px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.pagination a,
+.pagination-disabled {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 42px;
+    height: 42px;
+    padding: 0 14px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.pagination a {
+    color: #5c4630;
+    background-color: #fffdf9;
+    border: 1px solid #dfcdb5;
+}
+
+.pagination a:hover {
+    background-color: #a87945;
+    color: white;
+    border-color: #a87945;
+    transform: translateY(-2px);
+   box-shadow: 0 6px 14px rgba(37, 99, 235, 0.25);
+}
+
+.pagination a.active {
+    background-color: #8b6b3f;
+    color: white;
+    border-color: #8b6b3f;
+}
+
+.pagination .prev,
+.pagination .next {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.pagination-disabled {
+    color: #b7aa9b;
+    background-color: #f2ece4;
+    border: 1px solid #dfcdb5;
+    cursor: not-allowed;
+}
+ 
+ /* =========================================
+    RESPONSIVE
+    ========================================= */
+ 
+ @media (max-width: 768px) {
+    body {
+       padding: 15px;
+    }
+ 
+    .page-index .container,
+    .form-card {
+       padding: 18px;
+    }
+ 
+    .top-bar {
+       flex-direction: column;
+       align-items: stretch;
+    }
+ 
+    .search-box {
+       width: 100%;
+    }
+ 
+    .search-box input {
+       width: 100%;
+    }
+ 
+    .page-index .btn-tambah {
+       text-align: center;
+    }
+ 
+    .page-index .container {
+       overflow-x: auto;
+    }
+ 
+    .button-group {
+       flex-direction: column;
+    }
+ 
+    .button-group .btn {
+       width: 100%;
+    }
+    
+
+ }
